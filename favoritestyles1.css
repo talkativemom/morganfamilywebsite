@@ -79,3 +79,87 @@ ul li {
 .media-body p a {
 	font-size: 90%;
 }
+@media screen and (max-width:991.98px){
+.navbar-nav .nav-item {
+	border: 1px solid #02021B;
+	width: 100%;
+	text-align: left;
+	color: #F8F8F8;
+	background-image: none;
+	background-color: #8F0406;
+	padding-left: 10px;
+}
+header h2 {
+	font-size: 300%;
+	letter-spacing: 0.05em;
+	font-size-adjust: 150%;
+	-webkit-margin-top-collapse: 2.6em;
+}
+header {
+	height: 190px;
+	background-attachment: fixed
+!important;
+	background-size: 70% auto;
+}
+
+
+
+}
+
+@media screen and (max-width:659.98px){
+header h2 {
+	font-size: 230%;
+	letter-spacing: 0.03em;
+	font-size-adjust: 150%;
+	margin: 1.4em 0 0 0;
+	-webkit-margin-top-collapse: 2.6em;
+	line-height: 1.5em;
+}
+header {
+	height: 160px;
+	background-attachment: fixed
+!important;
+	background-size: 70% auto;
+}
+h4 {
+	font-size: 135%;
+}
+
+
+
+}
+
+@media screen and (max-width:500px){
+header .row {
+	display: none;
+}
+.mobile-spacer {
+	height: 60px;
+	display: block;
+}
+.container .navbar-brand {
+	display: block;
+	font-weight: bold;
+}
+h4 {
+	font-size: 135%;
+}
+
+
+
+
+}
+
+@media screen and (max-width:350px){
+address .col-6 {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+h2 {
+	font-size: 180%;
+}
+
+
+}
+
