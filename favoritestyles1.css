@@ -3,7 +3,6 @@
 	background-color: #CA0606 !important;
 }
 .navbar-dark .navbar-nav .nav-link {
-	font-family: 'Source Sans Pro';
 	color: #0912F1 !important;
 }
 .navbar-dark .navbar-nav .nav-link:hover  {
@@ -41,26 +40,40 @@ header h2 {
 	font-size-adjust: 150%;
 	-webkit-margin-top-collapse: 2.6em;
 }
+h2 {
+	font-family: pt-sans;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 250%;
+	line-height: 1em;
+}
+
 header {
 	background-color: #CA0606;
 	background-position: center center;
 	background-repeat: no-repeat;
 	height: 100PX;
-	background-attachment: fixed;
+	background-attachment: fixed
+!important;
 	background-size: cover;
 }
 .img {
-  padding: 5px;
+	background-image: url(images/universal.jpg);
 }
 
-
+.nav-item .nav-link .sr-only {
+}
 nav .container {
 	padding-bottom: 10px;
 	border-bottom: 2px solid #FF3;
 }
 body {
-	border-right: 150px solid #CA0606;
-	border-left: 150px solid #CA0606;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	border-right: 15px solid #CA0606;
+	border-left: 15px solid #CA0606;
 }
 footer {
 	padding-top: 5px;
@@ -79,6 +92,11 @@ ul li {
 .media-body p a {
 	font-size: 90%;
 }
+.mobile-spacer {
+	display: none;
+}
+
+
 @media screen and (max-width:991.98px){
 .navbar-nav .nav-item {
 	border: 1px solid #02021B;
@@ -162,4 +180,3 @@ h2 {
 
 
 }
-
